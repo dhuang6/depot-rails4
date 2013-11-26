@@ -1,0 +1,173 @@
+﻿Merge branch 'master' of depot
+
+Conflicts:
+	.gitignore
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	modified:   .gitignore
+#	new file:   Gemfile
+#	new file:   Gemfile.lock
+#	new file:   README.rdoc
+#	new file:   Rakefile
+#	new file:   app/assets/images/.keep
+#	new file:   app/assets/images/cs.jpg
+#	new file:   app/assets/images/logo.png
+#	new file:   app/assets/images/rails.png
+#	new file:   app/assets/images/rtp.jpg
+#	new file:   app/assets/images/ruby.jpg
+#	new file:   app/assets/javascripts/application.js
+#	new file:   app/assets/javascripts/carts.js.coffee
+#	new file:   app/assets/javascripts/line_items.js.coffee
+#	new file:   app/assets/javascripts/products.js.coffee
+#	new file:   app/assets/javascripts/store.js.coffee
+#	new file:   app/assets/stylesheets/application.css.scss
+#	new file:   app/assets/stylesheets/carts.css.scss
+#	new file:   app/assets/stylesheets/line_items.css.scss
+#	new file:   app/assets/stylesheets/products.css.scss
+#	new file:   app/assets/stylesheets/scaffolds.css.scss
+#	new file:   app/assets/stylesheets/store.css.scss
+#	new file:   app/controllers/application_controller.rb
+#	new file:   app/controllers/carts_controller.rb
+#	new file:   app/controllers/concerns/.keep
+#	new file:   app/controllers/concerns/current_cart.rb
+#	new file:   app/controllers/line_items_controller.rb
+#	new file:   app/controllers/products_controller.rb
+#	new file:   app/controllers/store_controller.rb
+#	new file:   app/helpers/application_helper.rb
+#	new file:   app/helpers/carts_helper.rb
+#	new file:   app/helpers/line_items_helper.rb
+#	new file:   app/helpers/products_helper.rb
+#	new file:   app/helpers/store_helper.rb
+#	new file:   app/mailers/.keep
+#	new file:   app/models/.keep
+#	new file:   app/models/cart.rb
+#	new file:   app/models/concerns/.keep
+#	new file:   app/models/line_item.rb
+#	new file:   app/models/product.rb
+#	new file:   app/views/carts/_form.html.erb
+#	new file:   app/views/carts/edit.html.erb
+#	new file:   app/views/carts/index.html.erb
+#	new file:   app/views/carts/index.json.jbuilder
+#	new file:   app/views/carts/new.html.erb
+#	new file:   app/views/carts/show.html.erb
+#	new file:   app/views/carts/show.json.jbuilder
+#	new file:   app/views/layouts/application.html.erb
+#	new file:   app/views/line_items/_form.html.erb
+#	new file:   app/views/line_items/edit.html.erb
+#	new file:   app/views/line_items/index.html.erb
+#	new file:   app/views/line_items/index.json.jbuilder
+#	new file:   app/views/line_items/new.html.erb
+#	new file:   app/views/line_items/show.html.erb
+#	new file:   app/views/line_items/show.json.jbuilder
+#	new file:   app/views/products/_form.html.erb
+#	new file:   app/views/products/edit.html.erb
+#	new file:   app/views/products/index.html.erb
+#	new file:   app/views/products/index.json.jbuilder
+#	new file:   app/views/products/new.html.erb
+#	new file:   app/views/products/show.html.erb
+#	new file:   app/views/products/show.json.jbuilder
+#	new file:   app/views/store/index.html.erb
+#	new file:   bin/bundle
+#	new file:   bin/rails
+#	new file:   bin/rake
+#	new file:   config.ru
+#	new file:   config/application.rb
+#	new file:   config/boot.rb
+#	new file:   config/database.yml
+#	new file:   config/environment.rb
+#	new file:   config/environments/development.rb
+#	new file:   config/environments/production.rb
+#	new file:   config/environments/test.rb
+#	new file:   config/initializers/backtrace_silencers.rb
+#	new file:   config/initializers/filter_parameter_logging.rb
+#	new file:   config/initializers/inflections.rb
+#	new file:   config/initializers/mime_types.rb
+#	new file:   config/initializers/secret_token.rb
+#	new file:   config/initializers/session_store.rb
+#	new file:   config/initializers/wrap_parameters.rb
+#	new file:   config/locales/en.yml
+#	new file:   config/routes.rb
+#	new file:   db/migrate/20131123154730_create_products.rb
+#	new file:   db/migrate/20131124045204_create_carts.rb
+#	new file:   db/migrate/20131124045816_create_line_items.rb
+#	new file:   db/schema.rb
+#	new file:   db/seeds.rb
+#	new file:   lib/assets/.keep
+#	new file:   lib/tasks/.keep
+#	new file:   log/.keep
+#	new file:   public/404.html
+#	new file:   public/422.html
+#	new file:   public/500.html
+#	new file:   public/favicon.ico
+#	new file:   public/robots.txt
+#	new file:   test/controllers/.keep
+#	new file:   test/controllers/carts_controller_test.rb
+#	new file:   test/controllers/line_items_controller_test.rb
+#	new file:   test/controllers/products_controller_test.rb
+#	new file:   test/controllers/store_controller_test.rb
+#	new file:   test/fixtures/.keep
+#	new file:   test/fixtures/carts.yml
+#	new file:   test/fixtures/line_items.yml
+#	new file:   test/fixtures/products.yml
+#	new file:   test/helpers/.keep
+#	new file:   test/helpers/carts_helper_test.rb
+#	new file:   test/helpers/line_items_helper_test.rb
+#	new file:   test/helpers/products_helper_test.rb
+#	new file:   test/helpers/store_helper_test.rb
+#	new file:   test/integration/.keep
+#	new file:   test/mailers/.keep
+#	new file:   test/models/.keep
+#	new file:   test/models/cart_test.rb
+#	new file:   test/models/line_item_test.rb
+#	new file:   test/models/product_test.rb
+#	new file:   test/test_helper.rb
+#	new file:   vendor/assets/javascripts/.keep
+#	new file:   vendor/assets/stylesheets/.keep
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	depot/app/assets/javascripts/carts.js.coffee
+#	depot/app/assets/javascripts/line_items.js.coffee
+#	depot/app/assets/stylesheets/carts.css.scss
+#	depot/app/assets/stylesheets/line_items.css.scss
+#	depot/app/assets/stylesheets/store.css.scss
+#	depot/app/controllers/application_controller.rb
+#	depot/app/controllers/carts_controller.rb
+#	depot/app/controllers/concerns/current_cart.rb
+#	depot/app/controllers/line_items_controller.rb
+#	depot/app/helpers/carts_helper.rb
+#	depot/app/helpers/line_items_helper.rb
+#	depot/app/models/cart.rb
+#	depot/app/models/line_item.rb
+#	depot/app/models/product.rb
+#	depot/app/views/carts/
+#	depot/app/views/line_items/
+#	depot/app/views/store/
+#	depot/config/routes.rb
+#	depot/db/migrate/20131124045204_create_carts.rb
+#	depot/db/migrate/20131124045816_create_line_items.rb
+#	depot/db/schema.rb
+#	depot/test/controllers/carts_controller_test.rb
+#	depot/test/controllers/line_items_controller_test.rb
+#	depot/test/controllers/store_controller_test.rb
+#	depot/test/fixtures/carts.yml
+#	depot/test/fixtures/line_items.yml
+#	depot/test/helpers/carts_helper_test.rb
+#	depot/test/helpers/line_items_helper_test.rb
+#	depot/test/models/cart_test.rb
+#	depot/test/models/line_item_test.rb
+
