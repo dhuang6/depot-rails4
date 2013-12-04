@@ -21,69 +21,61 @@
 
 en:
 
-     layouts:
-        application:
-            title:          "Pragmatic Bookshelf"
-            home:            "Home"
-            questions:       "Questions"
-            news:            "News"
-            contact:         "Contact"
+    layouts:
+      application:
+          title:              "Pragmatic Bookshelf"
+          home:               "Home"
+          questions:          "Questions"
+          news:               "News"
+          contact:            "Contact"
 
-     store:
-        index:
-            title_html:            "Your Pragmatic Catalog"
-            add_html:              "Add to Cart"
+    store:
+      index:
+          title_html:            "Your Pragmatic Catalog"
+          add_html:              "Add to Cart"
 
-     carts:
-        cart:
-            title:           "Your Cart"
-            empty:           "Empty cart"
-            checkout:         "Checkout"
+    carts:
+      cart:
+          title:              "Your Cart"
+          empty:              "Empty cart"
+          checkout:           "Checkout"
 
-     number:
-        currency:
-          format:
-            unit:             "$"
-            precision:        2
-            separator:        "."
-            delimiter:        ","
-            format:          "%u%n" 
+    number:
+      currency:
+        format:
+          unit:               "$"
+          precision:          2
+          separator:          "."
+          delimiter:          ","
+          format:             "%u%n" 
 
-     errors:
-        errors:
-           template:
-           body:          "There were problems with the following fields:"
-           header:         
-              one:        "1 error prohibited this %{model} from being saved"
-     layouts:
-        layout:
-           application:
-              title:      "Pragmatic Bookshelf"
-              home:        "Home"
-              questions:   "Questions"
-              news:        "News"
-              contact:      "Contact"
+    errors:
+      errors:
+          template:
+          body:             "There were problems with the following fields:"
+          header:         
+            one:            "1 error prohibited this %{model} from being saved"
 
-     cart:
-        carts:
-          title:           "Your Cart"
-          empty:            "Empty Cart"
-          checkout:         "Checkout" 
+    cart:
+      carts:
+        title:              "Your Cart"
+        empty:              "Empty Cart"
+        checkout:           "Checkout" 
 
-     store:
-        index:
-          title_html:       "Your Pragmatic Catalog"               
-          add_html:         "Add to Cart"
+    store:
+      index:
+        title_html:         "Your Pragmatic Catalog"               
+        add_html:           "Add to Cart"
 
-     orders:
+    orders:
       new:
-        legend:         "Please Enter Your Details"
+        legend:            "Please Enter Your Details"
       form:         
-        name:            "Name"
-        address_html:    "Address"
-        email:           "E-mail"
-        pay_type:        "Pay with"
+        name:              "Name"
+        address_html:      "Address"
+        email:             "E-mail"
+        pay_type:          "Pay with"
         pay_prompt_html:   "Select a payment method"
-        submit:           "Place Order"        
+        submit:            "Place Order"        
 
-     thanks:             "Thank you for your order"
+    thanks:                "Thank you for your order"
